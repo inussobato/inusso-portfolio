@@ -23,7 +23,7 @@ const translations = {
       title: "Where I Operate",
       thor: { role: "Strategic Partnership", desc: "Subsidiary to Thor International Limited in Zambia. Strategic partnerships and business development across Southern Africa." },
       north: { role: "Executive Director — Business Development", desc: "Mozambican mining, fuel supply and fuel storage company. Registry code 105012362. Leading business development and market expansion." },
-      adira: { role: "NGO Member — Project Developer", desc: "Associação Para o Desenvolvimento Social. Developing social projects focused on juvenile work, women's inclusion, and community development across Mozambique." }
+      adira: { role: "NGO Member — Project Developer", desc: "Associação Para o Desenvolvimento Participativo Social. Developing social projects focused on juvenile work, women's inclusion, and community development across Mozambique." }
     },
     skills: {
       label: "Skills",
@@ -92,7 +92,7 @@ const translations = {
       title: "Onde Opero",
       thor: { role: "Parceria Estrat\u00e9gica", desc: "Subsidi\u00e1ria da Thor International Limited na Z\u00e2mbia. Parcerias estrat\u00e9gicas e desenvolvimento de neg\u00f3cios no Sul de \u00c1frica." },
       north: { role: "Diretor Executivo \u2014 Desenvolvimento de Neg\u00f3cios", desc: "Empresa mo\u00e7ambicana de minera\u00e7\u00e3o, fornecimento e armazenamento de combust\u00edvel. C\u00f3digo de registo 105012362. Liderando o desenvolvimento de neg\u00f3cios e expans\u00e3o de mercado." },
-      adira: { role: "Membro ONG \u2014 Desenvolvedor de Projetos", desc: "Associa\u00e7\u00e3o Para o Desenvolvimento Social. Desenvolvendo projetos sociais focados em trabalho juvenil, inclus\u00e3o de mulheres e desenvolvimento comunit\u00e1rio em Mo\u00e7ambique." }
+      adira: { role: "Membro ONG \u2014 Desenvolvedor de Projetos", desc: "Associa\u00e7\u00e3o Para o Desenvolvimento Participativo Social. Desenvolvendo projetos sociais focados em trabalho juvenil, inclus\u00e3o de mulheres e desenvolvimento comunit\u00e1rio em Mo\u00e7ambique." }
     },
     skills: {
       label: "Compet\u00eancias",
