@@ -53,8 +53,7 @@ const translations = {
       title: "Events & Connections",
       apiex: { title: "APIEX 2026", desc: "Mozambique's premier investment and export promotion event. Engaged with international investors and explored opportunities across PALOP countries." },
       cplpex: { title: "CPLPEX", desc: "Community of Portuguese Language Countries exhibition. Connecting lusophone markets and investment opportunities." },
-      huawei: { title: "Huawei Mozambique", desc: "Exploring technology partnerships and digital infrastructure development in Mozambique." },
-      embassy: { title: "Portuguese Embassy", desc: "Diplomatic connections fostering bilateral business relations between Portugal and Mozambique." }
+      huawei: { title: "Huawei Mozambique", desc: "Exploring technology partnerships and digital infrastructure development in Mozambique." }
     },
     contact: {
       label: "Contact",
@@ -133,8 +132,7 @@ const translations = {
       title: "Eventos & Conex\u00f5es",
       apiex: { title: "APIEX 2026", desc: "O principal evento de investimento e promo\u00e7\u00e3o de exporta\u00e7\u00e3o de Mo\u00e7ambique. Interagi com investidores internacionais e explorei oportunidades nos pa\u00edses PALOP." },
       cplpex: { title: "CPLPEX", desc: "Exposi\u00e7\u00e3o dos Pa\u00edses de L\u00edngua Portuguesa. A conectar mercados lus\u00f3fonos e oportunidades de investimento." },
-      huawei: { title: "Huawei Mo\u00e7ambique", desc: "A explorar parcerias tecnol\u00f3gicas e desenvolvimento de infraestrutura digital em Mo\u00e7ambique." },
-      embassy: { title: "Embaixada Portuguesa", desc: "Conex\u00f5es diplom\u00e1ticas a promover rela\u00e7\u00f5es bilaterais de neg\u00f3cios entre Portugal e Mo\u00e7ambique." }
+      huawei: { title: "Huawei Mo\u00e7ambique", desc: "A explorar parcerias tecnol\u00f3gicas e desenvolvimento de infraestrutura digital em Mo\u00e7ambique." }
     },
     contact: {
       label: "Contacto",
