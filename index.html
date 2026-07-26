@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inusso Aly Bato � Portfolio</title>
+  <meta name="description" content="Strategic Partner | Executive Director | Project Developer � Tech-business architect building the future of Mozambique.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9889;</text></svg>">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">I<span>AB</span></div>
+      <ul class="nav-links">
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#companies" data-i18n="nav.companies">Companies</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="#network" data-i18n="nav.network">Network</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        <li>
+          <div class="lang-toggle" onclick="toggleLang()">
+            <span id="lang-en" class="active-lang">EN</span>
+            <span>/</span>
+            <span id="lang-pt">PT</span>
+          </div>
+        </li>
+        <li>
+          <div class="theme-toggle" onclick="toggleTheme()">
+            <span class="theme-toggle-icon">&#9790;</span>
+          </div>
+        </li>
+      </ul>
+      <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <p class="hero-label" data-i18n="hero.label">Strategic Partner | Executive Director | Project Developer</p>
+      <h1 class="hero-name">
+        <span data-i18n="hero.name1">Inusso</span><br>
+        <span class="accent" data-i18n="hero.name2">Aly Bato</span>
+      </h1>
+      <p class="hero-tagline" data-i18n="hero.tagline">Tech-business architect building the future of Mozambique through innovation, finance, and social development.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary" data-i18n="hero.cta1">View Projects</a>
+        <a href="#contact" class="btn btn-outline" data-i18n="hero.cta2">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span data-i18n="hero.scroll">Scroll</span>
+      <span>&darr;</span>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image fade-in">
+          <div class="about-image-placeholder">
+            <img src="IAB_pic.jpeg" alt="Inusso Aly Bato">
+          </div>
+        </div>
+        <div class="about-text fade-in">
+          <p class="section-label" data-i18n="about.label">About</p>
+          <h2 data-i18n="about.title">Who I Am</h2>
+          <p data-i18n="about.p1">I am a tech-business person who started coding at 13. From Java and HTML to WordPress, MetaTrader automated trading bots, and Adobe Creative Suite - I have built a diverse skill set across technology, finance, and creative production.</p>
+          <p data-i18n="about.p2">Today, I serve as Strategic Partner at Thor International LDA and Executive Director of Business Development at North Mining LDA. Through ADIRA, I develop social development projects focused on juvenile work, women's inclusion, and community growth in Mozambique.</p>
+          <p data-i18n="about.p3">I am driven by geopolitics, vibe coding, and understanding how the real-world matrix operates. From forex trading to defense product translations, I operate at the intersection of technology, business, and international relations.</p>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-number">10+</div>
+              <div class="stat-label" data-i18n="about.stats.years">Years Coding</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">15+</div>
+              <div class="stat-label" data-i18n="about.stats.projects">Projects Delivered</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">3</div>
+              <div class="stat-label" data-i18n="about.stats.companies">Companies</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="companies" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label" data-i18n="companies.label">Companies</p>
+        <h2 class="section-title" data-i18n="companies.title">Where I Operate</h2>
+      </div>
+      <div class="companies-grid">
+        <div class="company-card fade-in">
+          <img src="THOR_Logo.png" alt="Thor International" class="company-logo">
+          <h3>Thor International LDA</h3>
+          <p class="company-role" data-i18n="companies.thor.role">Strategic Partnership</p>
+          <p data-i18n="companies.thor.desc">Subsidiary to Thor International Limited in Zambia. Strategic partnerships and business development across Southern Africa.</p>
+          <div class="company-tags">
+            <span class="tag">Zambia</span>
+            <span class="tag">Strategic Partnership</span>
+            <span class="tag">Southern Africa</span>
+          </div>
+        </div>
+        <div class="company-card fade-in">
+          <img src="NML_Logo.png" alt="North Mining LDA" class="company-logo">
+          <h3>North Mining LDA</h3>
+          <p class="company-role" data-i18n="companies.north.role">Executive Director - Business Development</p>
+          <p data-i18n="companies.north.desc">Mozambican mining, fuel supply and fuel storage company. Registry code 105012362. Leading business development and market expansion.</p>
+          <div class="company-tags">
+            <span class="tag">Mining</span>
+            <span class="tag">Fuel Supply</span>
+            <span class="tag">Mozambique</span>
+          </div>
+        </div>
+        <div class="company-card fade-in">
+          <img src="adira_logo_transparent.png" alt="ADIRA" class="company-logo">
+          <h3>ADIRA</h3>
+          <p class="company-role" data-i18n="companies.adira.role">NGO Member - Project Developer</p>
+          <p data-i18n="companies.adira.desc">Associacao Para o Desenvolvimento Social. Developing social projects focused on juvenile work, women's inclusion, and community development across Mozambique.</p>
+          <div class="company-tags">
+            <span class="tag">Social Development</span>
+            <span class="tag">Youth</span>
+            <span class="tag">Women Inclusion</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label" data-i18n="skills.label">Skills</p>
+        <h2 class="section-title" data-i18n="skills.title">What I Do</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category fade-in">
+          <h3>&#128187; <span data-i18n="skills.tech.title">Technology</span></h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-name">Java / HTML / CSS</span><div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">WordPress</span><div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">MQL4 / MQL5</span><div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">React / Next.js / Vite</span><div class="skill-bar"><div class="skill-fill" style="width:82%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Python / Node.js</span><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Electron / TypeScript</span><div class="skill-bar"><div class="skill-fill" style="width:78%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+          <h3>&#127912; <span data-i18n="skills.creative.title">Creative</span></h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-name">Adobe Photoshop / Illustrator</span><div class="skill-bar"><div class="skill-fill" style="width:92%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Premiere Pro / After Effects</span><div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">FL Studio</span><div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">UI/UX Design</span><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+          <h3>&#128202; <span data-i18n="skills.business.title">Business and Finance</span></h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-name">Forex Trading</span><div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Risk Management</span><div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Project Development</span><div class="skill-bar"><div class="skill-fill" style="width:92%"></div></div></div>
+            <div class="skill-item"><span class="skill-name">Geopolitical Analysis</span><div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label" data-i18n="projects.label">Projects</p>
+        <h2 class="section-title" data-i18n="projects.title">What I Have Built</h2>
+      </div>
+      <div class="projects-filter fade-in">
+        <button class="filter-btn active" data-filter="all" data-i18n="projects.filter.all">All</button>
+        <button class="filter-btn" data-filter="tech" data-i18n="projects.filter.tech">Technology</button>
+        <button class="filter-btn" data-filter="agri" data-i18n="projects.filter.agri">Agriculture</button>
+        <button class="filter-btn" data-filter="mining" data-i18n="projects.filter.mining">Mining</button>
+        <button class="filter-btn" data-filter="social" data-i18n="projects.filter.social">Social Dev</button>
+        <button class="filter-btn" data-filter="finance" data-i18n="projects.filter.finance">Finance</button>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card fade-in" data-category="tech">
+          <div class="project-image" style="background: linear-gradient(135deg, #0a1a0a, #1a3a1a);">
+            <span style="font-size:4rem;">&#128752;</span>
+          </div>
+          <div class="project-body">
+            <p class="project-category">Intelligence Platform</p>
+            <h3>Argus Global</h3>
+            <p>Geospatial intelligence surveillance platform with real-time aircraft tracking, OSINT capabilities, and dark-mode Leaflet.js maps. Built as an Electron desktop app with Fastify REST API.</p>
+            <div class="project-tech">
+              <span>Electron</span>
+              <span>Fastify</span>
+              <span>PostgreSQL</span>
+              <span>Leaflet.js</span>
+              <span>JWT Auth</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in" data-category="agri">
+          <div class="project-image" style="background: linear-gradient(135deg, #0a1a05, #1a3a10);">
+            <span style="font-size:4rem;">&#127805;</span>
+          </div>
+          <div class="project-body">
+            <p class="project-category">Agricultural Platform</p>
+            <h3>GreenCulture / AGROLINE</h3>
+            <p>Comprehensive agricultural technology platform for Mozambique. 4000+ product marketplace, crop contracts, financing mechanisms, and equipment marketplace.</p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Vite</span>
+              <span>Node.js</span>
+              <span>E-Mola</span>
+              <span>M-Pesa</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in" data-category="mining">
+          <div class="project-image" style="background: linear-gradient(135deg, #1a1a0a, #3a3a10);">
+            <span style="font-size:4rem;">&#9935;</span>
+          </div>
+          <div class="project-body">
+            <p class="project-category">Mining Platform</p>
+            <h3>Moz Mining Hub</h3>
+            <p>Digital platform for Mozambique's mining sector. Connects miners, investors, suppliers, and traders. 4-tier membership system, investment opportunities, equipment marketplace.</p>
+            <div class="project-tech">
+              <span>Next.js 16</span>
+              <span>TypeScript</span>
+              <span>Supabase</span>
+              <span>Tailwind</span>
+              <span>PWA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in" data-category="social">
+          <div class="project-image" style="background: linear-gradient(135deg, #0a0a1a, #101a3a);">
+            <span style="font-size:4rem;">&#128031;</span>
+          </div>
+          <div class="project-body">
+            <p class="project-category">Blue Economy</p>
+            <h3>TunaMoz</h3>
+            <p>Mozambique marine business venture with extensive feasibility studies (technical, economic, operational, institutional). Maritime transport and Blue Economy development.</p>
+            <div class="project-tech">
+              <span>Feasibility Studies</span>
+              <span>Blue Economy</span>
+              <span>Maritime</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in" data-category="finance">
+          <div class="project-image" style="background: linear-gradient(135deg, #0a1a10, #103a20);">
+            <span style="font-size:4rem;">&#127920;</span>
+          </div>
+          <div class="project-body">
+            <p class="project-category">iGaming</p>
+            <h3>Emerald Vault Casino</h3>
+            <p>Online casino platform with multi-page frontend, session-based auth, dynamic backend APIs, and Coinbase Commerce crypto checkout integration.</p>
+            <div class="project-tech">
+              <span>Express</span>
+              <span>Node.js</span>
+              <span>Coinbase API</span>
+              <span>HTML/CSS/JS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in" data-category="finance">
+          <div class="project-image" style="background: linear-gradient(135deg, #1a0a0a, #3a1a10);">
+            <span style="font-size:4rem;">&#128200;</span>
+          </div>
+          <div class="project-body">
+            <p class="project-category">Automated Trading</p>
+            <h3>HandsomeUSD V75 Scalper</h3>
+            <p>MetaTrader 5 Expert Advisor for Deriv Volatility 75 Index. 3 strategy modes, ATR-based dynamic stops, risk management, trailing stops. 4 versions developed.</p>
+            <div class="project-tech">
+              <span>MQL5</span>
+              <span>MetaTrader 5</span>
+              <span>ATR</span>
+              <span>Risk Mgmt</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in" data-category="tech">
+          <div class="project-image" style="background: linear-gradient(135deg, #1a0a1a, #3a103a);">
+            <span style="font-size:4rem;">&#128218;</span>
+          </div>
+          <div class="project-body">
+            <p class="project-category">AI Tool</p>
+            <h3>Ebook Studio</h3>
+            <p>Desktop ebook creation studio powered by AI. Generates outlines, chapters, sales pages, and covers. Supports Ollama, OpenAI, and LM Studio. Built into standalone .exe.</p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Tkinter</span>
+              <span>OpenAI</span>
+              <span>PyInstaller</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in" data-category="tech">
+          <div class="project-image" style="background: linear-gradient(135deg, #1a1a1a, #2a2a2a);">
+            <span style="font-size:4rem;">&#128737;</span>
+          </div>
+          <div class="project-body">
+            <p class="project-category">Defense Tech</p>
+            <h3>Defense Product Translation</h3>
+            <p>Chinese defense product catalogs and presentations translated to Portuguese. Anti-drone systems, special vehicles, and intelligent soldier systems.</p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>PDF Parsing</span>
+              <span>PPTX</span>
+              <span>Chinese to PT</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in" data-category="social">
+          <div class="project-image" style="background: linear-gradient(135deg, #1a1005, #3a2010);">
+            <span style="font-size:4rem;">&#129309;</span>
+          </div>
+          <div class="project-body">
+            <p class="project-category">Social Development</p>
+            <h3>ADIRA State Projects</h3>
+            <p>Social development projects delivered through ADIRA since September 2025. Cooperation proposals, feasibility studies, and community development programs.</p>
+            <div class="project-tech">
+              <span>Project Dev</span>
+              <span>Community</span>
+              <span>Youth</span>
+              <span>Women Inclusion</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in" data-category="agri">
+          <div class="project-image" style="background: linear-gradient(135deg, #0a0a05, #1a1a10);">
+            <span style="font-size:4rem;">&#128029;</span>
+          </div>
+          <div class="project-body">
+            <p class="project-category">Agriculture</p>
+            <h3>Bufalos Unidos</h3>
+            <p>Mozambique livestock and agriculture project. Updated and corrected project plans with budget allocations and operational strategies.</p>
+            <div class="project-tech">
+              <span>Agriculture</span>
+              <span>Livestock</span>
+              <span>Mozambique</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in" data-category="finance">
+          <div class="project-image" style="background: linear-gradient(135deg, #0a0a1a, #10103a);">
+            <span style="font-size:4rem;">&#128279;</span>
+          </div>
+          <div class="project-body">
+            <p class="project-category">Blockchain</p>
+            <h3>Solidity Smart Contracts</h3>
+            <p>Ethereum smart contracts including USDT token contract and test tokens. Browser-based Solidity compiler for rapid development.</p>
+            <div class="project-tech">
+              <span>Solidity</span>
+              <span>Ethereum</span>
+              <span>Smart Contracts</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="network">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label" data-i18n="network.label">Network</p>
+        <h2 class="section-title" data-i18n="network.title">Events and Connections</h2>
+      </div>
+      <div class="network-grid">
+        <div class="network-card fade-in">
+          <div class="network-icon">&#127760;</div>
+          <h3 data-i18n="network.apiex.title">APIEX 2026</h3>
+          <p data-i18n="network.apiex.desc">Mozambique's premier investment and export promotion event. Engaged with international investors and explored opportunities across PALOP countries.</p>
+        </div>
+        <div class="network-card fade-in">
+          <div class="network-icon">&#127477;</div>
+          <h3 data-i18n="network.cplpex.title">CPLPEX</h3>
+          <p data-i18n="network.cplpex.desc">Community of Portuguese Language Countries exhibition. Connecting lusophone markets and investment opportunities.</p>
+        </div>
+        <div class="network-card fade-in">
+          <div class="network-icon">&#128225;</div>
+          <h3 data-i18n="network.huawei.title">Huawei Mozambique</h3>
+          <p data-i18n="network.huawei.desc">Exploring technology partnerships and digital infrastructure development in Mozambique.</p>
+        </div>
+        <div class="network-card fade-in">
+          <div class="network-icon">&#127963;</div>
+          <h3 data-i18n="network.embassy.title">Portuguese Embassy</h3>
+          <p data-i18n="network.embassy.desc">Diplomatic connections fostering bilateral business relations between Portugal and Mozambique.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label" data-i18n="contact.label">Contact</p>
+        <h2 class="section-title" data-i18n="contact.title">Lets Connect</h2>
+        <p class="section-subtitle" data-i18n="contact.desc">Interested in collaboration, investment opportunities, or project development? Lets talk.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info fade-in">
+          <div class="contact-links">
+            <a href="mailto:inusso.bato@thorinl.com" class="contact-link">
+              <div class="contact-link-icon">&#9993;</div>
+              <div class="contact-link-text">
+                <span class="contact-link-label" data-i18n="contact.email">Email</span>
+                <span class="contact-link-value">inusso.bato@thorinl.com</span>
+              </div>
+            </a>
+            <a href="https://instagram.com/inussobato" target="_blank" class="contact-link">
+              <div class="contact-link-icon">&#128247;</div>
+              <div class="contact-link-text">
+                <span class="contact-link-label" data-i18n="contact.ig_public">Instagram (Public)</span>
+                <span class="contact-link-value">@inussobato</span>
+              </div>
+            </a>
+            <a href="https://instagram.com/inussoceo" target="_blank" class="contact-link">
+              <div class="contact-link-icon">&#128274;</div>
+              <div class="contact-link-text">
+                <span class="contact-link-label" data-i18n="contact.ig_private">Instagram (Private)</span>
+                <span class="contact-link-value">@inussoceo</span>
+              </div>
+            </a>
+            <a href="https://soundcloud.com/therealyngnx" target="_blank" class="contact-link">
+              <div class="contact-link-icon">&#127925;</div>
+              <div class="contact-link-text">
+                <span class="contact-link-label" data-i18n="contact.soundcloud">SoundCloud</span>
+                <span class="contact-link-value">@therealyngnx</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form fade-in" onsubmit="event.preventDefault(); alert('Message sent! (Demo)')">
+          <div class="form-group">
+            <label data-i18n="contact.form.name">Your Name</label>
+            <input type="text" data-i18n-placeholder="contact.form.name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label data-i18n="contact.form.email">Your Email</label>
+            <input type="email" data-i18n-placeholder="contact.form.email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <label data-i18n="contact.form.message">Your Message</label>
+            <textarea data-i18n-placeholder="contact.form.message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" data-i18n="contact.form.send">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text" data-i18n="footer">&copy; 2026 Inusso Aly Bato. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://instagram.com/inussobato" target="_blank" title="Instagram">&#128247;</a>
+        <a href="https://instagram.com/inussoceo" target="_blank" title="Instagram Private">&#128274;</a>
+        <a href="https://soundcloud.com/therealyngnx" target="_blank" title="SoundCloud">&#127925;</a>
+        <a href="mailto:inusso.bato@thorinl.com" title="Email">&#9993;</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
